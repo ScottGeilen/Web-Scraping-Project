@@ -4,7 +4,7 @@ import csv
 #establish what page we use
 url = 'https://socialblade.com/youtube/top/50/mostviewed'
 #load the page. make a web request
-request = urllib.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})[4:]
+request = urllib.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'})[4:]
 page = urllib.urlopen(request)
 soup = BeautifulSoup(page, 'html.parser')
 
