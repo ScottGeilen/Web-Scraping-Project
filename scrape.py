@@ -26,3 +26,9 @@ for row in rows:
     writer.writerow([username.encode('utf-8'), uploads.encode('utf-8'), views.encode('utf-8')])
 
 file.close()
+# jobs = pd.DataFrame()
+# jobs.to_csv('code\ScrapingIndeed\Web-Scraping-Project/jobs.csv', index=False, header=False)
+# reader = csv.reader('jobs.csv')
+# with open('jobs.csv', 'w', newline='') as file:
+#     writer = csv.writer(file)
+#     writer.writerow(["Hello, world"])
